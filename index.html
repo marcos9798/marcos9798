@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Med-Life Homoeopathic Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a href="#home" class="brand" aria-label="Med-Life Home">
+          <span class="brand__logo">ML</span>
+          <span>
+            <strong id="clinicName">Med-Life Homoeopathic Clinic</strong>
+            <small id="clinicTagline">Natural Healing. Personalized Care.</small>
+          </span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+        <nav class="nav" id="navMenu">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#doctors">Doctors</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero__grid">
+          <div>
+            <p class="hero__eyebrow" id="heroEyebrow">Trusted Homoeopathic Healthcare</p>
+            <h1 id="heroTitle">Complete Wellness with Gentle, Effective Treatment</h1>
+            <p id="heroDescription"></p>
+            <div class="hero__actions">
+              <a id="heroPrimaryCta" class="btn btn--primary" href="#contact">Book Appointment</a>
+              <a id="heroSecondaryCta" class="btn btn--ghost" href="#services">Our Services</a>
+            </div>
+            <ul class="stats" id="statsList"></ul>
+          </div>
+          <aside class="hero-card">
+            <h3>Clinic Timings</h3>
+            <ul id="timingList"></ul>
+            <div class="hero-card__divider"></div>
+            <p><strong>Address:</strong> <span id="addressInline"></span></p>
+            <p><strong>Call:</strong> <a id="phoneInline" href="#"></a></p>
+            <p><strong>Email:</strong> <a id="emailInline" href="#"></a></p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <h2>Our Treatments & Services</h2>
+          <p class="section__subtitle">Comprehensive care for acute and chronic conditions.</p>
+          <div class="card-grid" id="servicesGrid"></div>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="about">
+        <div class="container split">
+          <div>
+            <h2>Why Choose Us</h2>
+            <p id="aboutText"></p>
+            <ul class="tick-list" id="aboutHighlights"></ul>
+          </div>
+          <div class="panel">
+            <h3>Conditions We Commonly Treat</h3>
+            <div class="chip-wrap" id="conditionsList"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="doctors">
+        <div class="container">
+          <h2>Our Doctors</h2>
+          <div class="doctor-grid" id="doctorGrid"></div>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="testimonials">
+        <div class="container">
+          <h2>Patient Testimonials</h2>
+          <div class="testimonial-grid" id="testimonialGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container split">
+          <div>
+            <h2>Book an Appointment</h2>
+            <p id="contactText"></p>
+            <ul class="contact-list">
+              <li><strong>Phone:</strong> <a id="contactPhone" href="#"></a></li>
+              <li><strong>Email:</strong> <a id="contactEmail" href="#"></a></li>
+              <li><strong>Address:</strong> <span id="contactAddress"></span></li>
+            </ul>
+          </div>
+          <form class="panel appointment-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you! Please connect on phone/WhatsApp to confirm your visit.');">
+            <label>
+              Full Name
+              <input type="text" required placeholder="Enter your name" />
+            </label>
+            <label>
+              Phone Number
+              <input type="tel" required placeholder="Enter your phone number" />
+            </label>
+            <label>
+              Preferred Date
+              <input type="date" required />
+            </label>
+            <label>
+              Concern
+              <textarea rows="3" placeholder="Describe your health concern"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary btn--full">Request Appointment</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> <span id="footerClinicName"></span>. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

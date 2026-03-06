@@ -1,0 +1,94 @@
+{
+  "clinic": {
+    "name": "Med-Life Homoeopathic Clinic",
+    "tagline": "Natural Healing. Personalized Care.",
+    "heroEyebrow": "Trusted Homoeopathic Healthcare",
+    "heroTitle": "Complete Wellness with Gentle, Effective Treatment",
+    "heroDescription": "At Med-Life Homoeopathic Clinic, we focus on root-cause based treatment plans designed for long-term healing. Our approach combines classical homoeopathy with modern diagnostics for safe and holistic care.",
+    "heroPrimaryCtaText": "Book Appointment",
+    "heroSecondaryCtaText": "Our Services",
+    "contactText": "To schedule your consultation, call us directly or visit the clinic during working hours."
+  },
+  "stats": [
+    { "value": "15+", "label": "Years Experience" },
+    { "value": "12K+", "label": "Patients Treated" },
+    { "value": "4.9/5", "label": "Patient Rating" }
+  ],
+  "timings": [
+    "Mon - Sat: 10:00 AM - 1:00 PM",
+    "Mon - Sat: 5:00 PM - 8:30 PM",
+    "Sunday: By Appointment"
+  ],
+  "contact": {
+    "phone": "+91-98765-43210",
+    "email": "contact@medlifeclinic.in",
+    "address": "12 Wellness Avenue, Green Park, New Delhi - 110016"
+  },
+  "services": [
+    {
+      "title": "Chronic Disease Management",
+      "description": "Supportive and long-term treatment plans for thyroid issues, arthritis, skin conditions, and allergies."
+    },
+    {
+      "title": "Women & Child Care",
+      "description": "Safe remedies for menstrual concerns, PCOS, pregnancy support, immunity building, and child wellness."
+    },
+    {
+      "title": "Lifestyle Disorders",
+      "description": "Personalized care plans for stress, migraine, digestion issues, obesity, and sleep disturbances."
+    },
+    {
+      "title": "Respiratory & Seasonal Care",
+      "description": "Relief-focused treatment for sinusitis, asthma, recurrent cold-cough, and seasonal sensitivities."
+    }
+  ],
+  "about": {
+    "text": "We believe every patient is unique. Our detailed consultations capture complete physical and emotional history before prescribing individualized medicines.",
+    "highlights": [
+      "Personalized one-to-one consultation",
+      "Evidence-informed homoeopathic prescribing",
+      "Diet and lifestyle counseling",
+      "Follow-up tracking for continuous improvement"
+    ]
+  },
+  "conditions": [
+    "Migraine",
+    "Allergy",
+    "Eczema",
+    "Psoriasis",
+    "Thyroid",
+    "PCOS",
+    "Asthma",
+    "Arthritis",
+    "Anxiety",
+    "Digestive Disorders"
+  ],
+  "doctors": [
+    {
+      "name": "Dr. Ananya Verma",
+      "qualification": "BHMS, MD (Hom)",
+      "specialization": "Classical Homoeopathy & Women Health",
+      "experience": "11 years"
+    },
+    {
+      "name": "Dr. Rohan Sethi",
+      "qualification": "BHMS, PGDCC",
+      "specialization": "Child Care & Chronic Cases",
+      "experience": "8 years"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "My sinus problem reduced significantly within two months. Very attentive doctor and detailed follow-ups.",
+      "author": "Priya M."
+    },
+    {
+      "quote": "Excellent care for my daughter's recurrent cold and low immunity. Highly recommend Med-Life clinic.",
+      "author": "Rahul K."
+    },
+    {
+      "quote": "I visited for migraine and stress; treatment was gentle and effective without side effects.",
+      "author": "Neha A."
+    }
+  ]
+}
